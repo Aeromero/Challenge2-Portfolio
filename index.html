@@ -3,6 +3,7 @@
 
 <head> 
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title> Ana Espinoza-Romero</title> 
 </head>
@@ -17,36 +18,46 @@
             <nav> 
                 <ul> 
                     <li> 
-                        <a href="About-Me"> About Me</a>
+                        <a href="#About-Me">About Me</a>
                     </li>
                     <li>
-                        <a href="My-Work"> My Work</a>
+                        <a href="#My-Work">My Work</a>
                     </li>
                     <li> 
-                        <a href="Contact-Me"> Contact Me</a>
+                        <a href="#Contact-Me">Contact Me</a>
                     </li>
                 </ul>
             </nav>
     </header>
 
 <!--About Me Section-->
-<section> 
-    <h2> About Me </h2>
+<section id="About-Me" class="sections" > 
+    <div class="my-info">
+    <h2 class="section-title">About Me </h2>
     <p> fill this out </p>
+    </div>
 </section>
-
 
 
 <!--Work Section-->
-<section> 
-    <h2> My Work </h2>
-    <p> add sections </p>
+<section class="sections" id="My-Work"> 
+    <div class="my-info" class="wrapper">
+    <h2 class="section-title">My Work </h2>
+    <div class="grid-item">Project A</div>
+    <div class="grid-item">Project B</div>
+    <div class="grid-item">Project C</div>
+    <div class="grid-item">Project D</div>
+    <div class="grid-item">Project E</div>
+    </div>
 </section>
 
 <!--Contact Me Section-->
-<section> 
-    <h2> Contact Me </h2>
-    <p> enter contact info </p>
+<section class="sections" id="Contact-Me"> 
+    <div class="my-info">
+    <h2 class="section-title">Contact Me </h2>
+    <p> Phone Number: 530.638.9479 Email: aespinozaromero1@gmail.com 
+        <a href="https://github.com/Aeromero">GitHub</a> <a href="https://www.linkedin.com/in/anaespinozaromero/">LinkedIn</a>
+    </div>
 </section>
 
 </body>
