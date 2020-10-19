@@ -8,7 +8,7 @@
 
 /* Header Image */
 
-img {
+.header-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -67,7 +67,7 @@ h2 {
     display: grid;
     grid-gap: 10px;
     padding: 10px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 
 .grid-item {
@@ -105,3 +105,27 @@ h2 {
     grid-column: 2 / span 2;
     grid-row: 3;
 }
+
+/* My Work Section */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex:50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.column img:hover {
+    opacity: 0.3;
+}
+
